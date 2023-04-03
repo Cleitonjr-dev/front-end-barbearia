@@ -1,0 +1,9 @@
+<div class="card flex justify-content-center">
+  <p-calendar [(ngModel)]="rangeDates" selectionMode="multiple" [inline]="true" [showWeek]="true"></p-calendar>
+
+</div>
+<div>
+  <ul *ngFor="let item of rangeDates">
+    <li>{{ item | date: 'dd/MM/yyyy'  }}</li>
+  </ul>
+</div>
