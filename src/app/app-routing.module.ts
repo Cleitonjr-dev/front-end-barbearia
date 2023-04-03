@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AgendamentosComponent } from './barbershop/agendamentos/agendamentos.component';
-import { ServicosComponent } from './barbershop/servicos/servicos.component';
-import { HomeComponent } from './barbershop/home/home.component';
-import { EditComponent } from './barbershop/edit/edit.component';
+import { AgendamentosComponent } from './components/agendamentos/agendamentos.component';
+import { ServicosComponent } from './components/servicos/servicos.component';
+import { HomeComponent } from './components/home/home.component';
+import { EditComponent } from './components/edit/edit.component';
 
 const routes: Routes = [
   {

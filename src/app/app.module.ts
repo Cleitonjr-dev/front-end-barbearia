@@ -4,14 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MenuComponent } from './barbershop/menu/menu.component';
-import { AgendamentosComponent } from './barbershop/agendamentos/agendamentos.component';
+import { MenuComponent } from './components/menu/menu.component';
+import { AgendamentosComponent } from './components/agendamentos/agendamentos.component';
 import { TabMenuModule } from 'primeng/tabmenu';
 import { CalendarModule } from 'primeng/calendar';
 import { FormsModule } from '@angular/forms';
-import { ServicosComponent } from './barbershop/servicos/servicos.component';
-import { HomeComponent } from './barbershop/home/home.component';
-import { EditComponent } from './barbershop/edit/edit.component';
+import { ServicosComponent } from './components/servicos/servicos.component';
+import { HomeComponent } from './components/home/home.component';
+import { EditComponent } from './components/edit/edit.component';
 
 
 
